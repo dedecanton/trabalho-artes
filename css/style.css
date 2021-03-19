@@ -30,6 +30,7 @@ html,body{
     /* background-image: url('../gifs/familia.webp'); */
     background-size: cover;
     background-position: center;
+    transition: all .3s ease;
 }
 
 .video{
