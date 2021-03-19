@@ -1,0 +1,75 @@
+:root{
+    --light-blue: #74B7E2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+
+.autoretrato{
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('../gifs/familia.webp'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.palavras-container{
+    /* height: 100vh; */
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   ;
+    align-items: center;
+    /* background-color: white; */
+    color: white;
+    text-align: center;
+    justify-items: center;
+    z-index: 999;
+}
+
+.palavra{
+    cursor: pointer;
+    font-size: 1.3rem;
+    /* border: 2px solid  white; */
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    background-color: var(--light-blue);
+    color: white;
+    margin: .5rem;
+    /* text-align: center; */
+    transition: all .3s ease;
+
+}
+
+.palavra:hover{
+
+    transform: scale(1.1);
+}
